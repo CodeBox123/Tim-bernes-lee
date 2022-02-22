@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+}
+#name{
+    font-family: 'Redressed', cursive;
+    font-size: 60px;
+}
+
+#profile{
+    border-radius: 50%;
+}
+
+#intro{
+    background-image: linear-gradient(red, rgb(255, 255, 255));
+    position: absolute;
+    bottom: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#context{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+#bio{
+    padding: 250px;
+}
+
+.menu{
+    position: fixed;
+    list-style: none;
+    top: 0px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    z-index: 10;
+    background-color: aliceblue;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;  
+}
+.link{
+    display: inline;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    border-width: 1px;
+    background-color: rgb(255, 168, 168);
+    border-color: rgb(255, 255, 255);
+    border-style: double;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive; 
+}
+
+.text{
+    font-family: 'Comfortaa', cursive;
+}
+
+#contact1 h2{
+    display: inline;
+}
